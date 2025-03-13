@@ -1,0 +1,13 @@
+calculate_stress = false
+popn_calculate = false
+xc_functional   PBE 
+spin_polarized : false
+mixing_scheme : Pulay
+cut_off_energy = 550 eV
+elec_energy_tol = 1e-5 eV
+max_scf_cycles  200
+fix_occupancy   false
+opt_strategy    speed
+smearing_scheme Gaussian
+smearing_width 0.1 eV
+WRITE_CHECKPOINT : MINIMAL
